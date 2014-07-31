@@ -1,7 +1,7 @@
 {
-  "name": "chat",
+  "name": "Shitelol",
   "version": "0.0.1",
-  "description": "Really basic Telnet server and scanner.",
+  "description": "Really basic Telnet server and scanner for chatting over local networks.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

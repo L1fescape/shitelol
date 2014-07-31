@@ -1,5 +1,7 @@
-# Telnet Lols
+# Shitelol
+> Crappy telnet server/scanning tool
 
+Hastily written before a flight with friends, Shitelol is a shitty telnet server for local networks.
 
 ## Configuration
 
