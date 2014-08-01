@@ -1,6 +1,10 @@
 // Load the TCP Library
 net = require('net'),
-  config = require('./config'),
+  config = {
+    host : "192.168.1.131",
+    target : "192.168.3.0/24",
+    port : 31337
+  },
   clients = [];
  
 net.createServer(function (socket){

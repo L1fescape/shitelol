@@ -3,19 +3,12 @@
 
 Hastily written before a flight with friends, Shitelol is a shitty telnet server for local networks.
 
-## Configuration
+## Installation
 
-Create a file called `config.json` with the following contents:
-
-```json
-{
-  "host" : "192.168.3.222", // your ip
-  "target" : "192.168.3.0/24", // ips to scan
-  "port" : 31337
-}
+Install dependencies:
 ```
-
-Note: Be sure to remove the comments inside `config.json` or else node will throw an error trying to parse them.
+npm install
+```
 
 ## Running
 
@@ -26,9 +19,9 @@ Note: Be sure to remove the comments inside `config.json` or else node will thro
 
 #### Server Scanner
 
-Finding servers:
+Finding telnet servers:
 ```
-node scan.js
+node scanner.js
 ```
 
 Connecting to a server: 
