@@ -10,21 +10,23 @@ Install dependencies:
 npm install
 ```
 
+Note: Installing dependencies is only needed for running the scanner. The server has no dependencies.
+
 ## Running
 
-#### Telnet server
+#### Running the Telnet server
 
 - Run the server: `node server.js`
 - Kill the server: `^C`
 
-#### Server Scanner
+#### Finding and connecting to other servers
 
 Finding telnet servers:
 ```
 node scanner.js
 ```
 
-Connecting to a server: 
+Connecting to a server (assumes you have the telnet program installed):
 ```
 telnet 192.168.2.10 31337
 ```
